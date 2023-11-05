@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // 拡張機能のTailwind CSS IntelliSenseをインストールしたうえで以下を記載
+  // @tailwind base;などの「@tailwind」でESlintに怒られなくなる
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  // 最初から補完を出すための設定。詳しくは https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "cSpell.words": ["autosize"]
+}
